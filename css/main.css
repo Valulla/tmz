@@ -792,6 +792,10 @@ footer .copyright a{
 		display: block;
 		width: 100%;
 	}
+	.hero{
+		
+		background: url('../img/hero-mobile.jpg') no-repeat fixed center center;		
+	}
 }
 
 @media (max-width: 767px) {
