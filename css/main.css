@@ -584,7 +584,7 @@ a.app_link{
 	font-size: 14px;
 }
 
-.#tslider{
+#tslider{
 	text-align: center!important;
 	position: relative!important;
 }
@@ -792,9 +792,19 @@ footer .copyright a{
 		display: block;
 		width: 100%;
 	}
+
 	.hero{
 		
-		background: url('../img/hero-mobile.jpg') no-repeat fixed center center;		
+		background: url('../img/hero_mobile.jpg') no-repeat fixed center center;		
+	}
+	
+}
+
+@media(max-width: 375px)
+{
+	.hero{
+		
+		background: url('../img/hero_mobile.jpg') no-repeat fixed center center;		
 	}
 }
 
